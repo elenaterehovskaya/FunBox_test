@@ -1,5 +1,8 @@
 @import "../../node_modules/node-normalize-scss/normalize";
 @import "fonts.scss";
-@import "global.scss";
 @import "variables.scss";
+@import "global.scss";
+@import "blocks/catalog.scss";
+@import "blocks/page-main.scss";
+@import "blocks/product.scss";
 @import "blocks/visually-hidden.scss";

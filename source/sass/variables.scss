@@ -1,18 +1,24 @@
-// Цвета от светлому к темному
-$white:         #ffffff;
-$grey-light:    #f2f2f2;
-$grey:          #b3b3b3;
-$grey-dark:     #666666;
-$yellow:        #ffff66;
-$blue:          #1698d9;
-$pink:          #d91667;
-$black:         #000000;
+// Цвета
+$black:                 #000000;
+$grey:                  #666666;
+$grey-light:            #f2f2f2;
+$white:                 #ffffff;
+
+$yellow:                #ffff66;
+
+$color-default:         #1698d9;
+$color-default--hover:  #2ea8e6;
+$color-selected:        #d91667;
+$color-selected--hover: #e62e7a;
+$color-disabled:        #b3b3b3;
+
 
 // Основные размеры экранов
-$mobile-width:  320px;
-$tablet-width:  750px;
-$desktop-width: 1150px;
+$mobile-width:          320px;
+$tablet-width:          750px;
+$desktop-width:         1150px;
+
 
 // Разрешение ретины
-$retina-dpi:    144dpi;
-$retina-dppx:   1.5dppx;
+$retina-dpi:            144dpi;
+$retina-dppx:           1.5dppx;
