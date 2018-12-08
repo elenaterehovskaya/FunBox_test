@@ -50,15 +50,10 @@ gulp.task("html", function () {
 });
 
 gulp.task("images", function () {
-  return gulp.src("source/img/**/*.{png,jpg,svg}")
+  return gulp.src("source/img/**/*.{png,jpg}")
     .pipe(imagemin([
       imagemin.optipng({optimizationLevel: 3}),
       imagemin.jpegtran({progressive: true}),
-      imagemin.svgo({
-        plugins: [
-          {removeViewBox: false}
-        ]
-      })
     ]))
     .pipe(gulp.dest("source/img"));
 });
