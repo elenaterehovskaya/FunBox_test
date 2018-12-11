@@ -1,7 +1,4 @@
 .page-main {
-  display: block;
-  background-image: linear-gradient(rgba($black, 0.5), transparent, rgba($black, 0.5));
-
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;

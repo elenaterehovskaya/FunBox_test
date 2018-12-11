@@ -4,11 +4,15 @@ body {
   padding: 0;
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   color: $white;
-  background: $black url("../img/bg-pattern@1x.jpg") repeat 0 0;
-  background-size: 70px 70px;
+  background-color: $black;
+  background-image: linear-gradient(rgba($black, 0.5), transparent, rgba($black, 0.5)), url("../img/bg-pattern@1x.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 70px 70px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/bg-pattern@2x.jpg");
+    background-image: linear-gradient(rgba($black, 0.5), transparent, rgba($black, 0.5)), url("../img/bg-pattern@2x.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover, 70px 70px;
   }
 }
 
