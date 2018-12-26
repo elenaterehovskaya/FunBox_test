@@ -19,8 +19,7 @@ var selectProduct = function (product, card, button) {
     }
   });
 
-  button.addEventListener("click", function (evt) {
-    evt.preventDefault();
+  button.addEventListener("click", function () {
     card.focus();
     product.classList.add("product--selected");
   });
